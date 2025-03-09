@@ -11,11 +11,13 @@ title: Senior Software Engineer
 email: jindalshubham34@gmail.com
 website: https://shjindal0309.github.io/
 
-# Dark Mode (true/false/never)
-darkmode: false
+# Add additional styling options for better UI
+# Example: layout: grid, for different sections
+
+darkmode: true
 
 # Social links
-twitter_username: facespics
+twitter_username: sh_jindal
 github_username:  shjindal0309
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
@@ -30,10 +32,10 @@ linkedin_username: jindal0309
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+#additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,83 +50,199 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am Shubham Jindal, currently working as Senior Software Engineer at TikTok in Global Payments Team. I have over 
-  5+ years of experience in the tech industry. At TikTok, I work on building highly available and resilient payment systems
-  where we process more than $50 million transactions everyday on TikTok Shop.
+  I am Shubham Jindal, currently working as Senior Software Engineer at <b> TikTok </b> in Global Payments Team. I have over 
+  6+ years of experience in the tech industry. At TikTok, I work on building highly available and resilient payment systems
+  where we process more than <mark>$50 Million</mark> transactions everyday on TikTok Shop.
   
-  Before TikTok, I spent 2 years at Flipkart (a Walmart subsidiary), where I led a team of software engineer in 
-  <b> Search Spyder </b> data team where I led a team of software and data engineers, before transitioning to TikTok, 
-  where I currently lead a team of software engineers.
+  Before TikTok, I spent 3 years at Flipkart (a Walmart subsidiary), where I led a team of software engineer in 
+  <b> Search Spyder </b> data team. I also worked in Retail where I contributed in build exchange micro-services.
   
-  My expertise lies in designing and developing scalable data pipelines and visualization solutions using technologies such as Apache Spark, Kafka, and other distributed computing environments. I have a strong foundation in software engineering, following the full Software Development Life Cycle (SDLC), including high-level and low-level design, as well as implementation in Golang, C++, Python, and Java, based on project requirements. Additionally, I have extensive experience working with various database technologies, including SQL, NoSQL (Redis, Hive, MongoDB), and graph databases.
-  I hold a Bachelor's degree in Computer Science from the prestigious Indian Institute of Technology (IIT) and a Master's degree in Computer Science from Stony Brook University.
-
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I hold a Bachelor's degree in Computer Science & Engineering from the prestigious Indian Institute of Technology (IIT) 
+  and a Master's degree in Computer Science from Stony Brook University.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        title: TikTok US Data Security Inc.
+        link: https://www.tiktok.com/
+        link_text: TikTok Website
+        sub_title: Senior Software Engineer
+        caption: Sept 2022 - Present
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          Joined as Senior Software Engineer and leading TikTok Shop Payments for TikTok's Global Payment Systems.
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+          - My roles and responsibilities are to design and develop payment features, integrating new payment methods, 
+            ensuring high payment success rates, ensuring smooth refunds and payouts collaborating with over more than 50 
+            engineers across Singapore, China and USA.
+          - Everyday my team is doing <b>$50 Million USD</b> amount of transactions and targeting <b>$8 Billion USD</b> in revenue
+            and <b>$3 Billion USD</b> in profit by 2029.
+          - Ensuring faster CI/CD pipelines, 99.99% SLA maintenance for payment issues resolution and oncall tickets, 
+            and PCI DSS & AML complaince maintenance.
+          - Technologies Used: Golang, MySQL, Distributed Systems, Micro-services, Payment Standards.
+
+      - layout: left
+        title: Flipkart Internet Private Limited
+        link: https://flipkart.com/
+        link_text: Flipkart Website
+        sub_title: Software Development Engineer
+        caption: July 2019 - Aug 2021
+        quote: >
+          Joined as Software Development Engineer & led Search Spyder Data team and owned exchange services in Retail team.
+        description: | # this will include new lines to allow paragraphs
+          - I designed and implemented new business features for exchange and trade-in micro-services backed by relational data
+            store. I have experience in complete SDLC process from design to oncall maintainance.
+          - Developed micro batched pipelines to create materialized views to capture the user journey stitching the user and server
+            events across time windows for ranking, semantics and autosuggest components consumption for clickstream analysis.
+          - Re-tuned spark pipelines along with appropriate GC settings for BBD user traffic growth of 10x .
+          - Developed reporting dashboards to allow business to get view of search ranking across multiple dimensions like city,
+            speed, price etc using druid + spark stack.
+          - Technologies Used: Java, Dropwizard, MySQL, Guice, HDFS, Apache Airflow, Apache Spark, Scala, Python, Apache
+            Kafka, Apache Superset, Apache Druid.
+
+      - layout: left
+        title: Flipkart Internet Private Limited
+        link: https://flipkart.com/
+        link_text: Flipkart Website
+        sub_title: Software Development Engineer
+        caption: May 2018 - July 2019
+        quote: >
+          Joined as Software Development Engineer in Infrastructure as a Service (IaaS) team.
+        description: | # this will include new lines to allow paragraphs
+         - Developed Hardware Resource Monitoring Platform to monitor, analyze and proactively report (near real-time)
+          the physical/virtual resource failures with an aim to improve Resource Availability and reduce Operational Expenses by 30%.
+         - Technologies Used: Python, Redis, Flask, CSS, Spark, Object Oriented Programming, Design Patterns (Chain of Responsibilities)
+
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Stock Social Media - Startup
+        additional_links:
+          - title: Finbyte Solutions
+            icon: fab fa-github
+            url: https://github.com/finbytes/social
+        quote: >
+          This will revolunize the stock trading and investment in USA.
+        description: | # this will include new lines to allow paragraphs
+          I started this project in 2024 Jan and currently the app is in development. This app will allow people to follow
+          their favourite stock influencers, get latest news about the stocks and stock analysis to make good trading and 
+          investment decisions.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: Stony Brook University, New York
+        caption: 2021 - 2022
+        sub_title: Masters of Science in Computer Science
+        link: https://www.stonybrook.edu/
+        link_text: Stony Brook University
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          🎓Graduated from SBU in 2022 with GPA of 3.77/4.00. During this degree I took courses like Distributed System,
+          Data Science, Probability, Computational Biology etc.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+      - layout: left
+        title: Indian Institute of Technology, Guwahati
+        caption: 2015 - 2019
+        sub_title: Bachelor's of Technology in Computer Science and Engineering
+        link: https://www.iitg.ac.in/
+        link_text: Indian Institute of Technology Guwahati
+        quote: >
+        description: | # this will include new lines to allow paragraphs
+          🎓Completed my undergraduate in 2019 with CGPA of 8.21/10.00. During this degree I took many important course to
+          laid the foundation of my Software Engineer career. My coursework included: Data Structure, Discrete Mathematics,
+          Algorithms, Theory of Computation, Artificial Intelligence, Computer Vision in Machine Learning, Databases,
+          Computer Networking, Compilers, Software Engineering, Operating System, Natural Language Processing
 
-  - title: A Little More About Me
+  - title: Publications
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      ## <i class="fas fa-book"></i> **Ensuring Configuration Consistency Across Multi-Regional Data Centers**
+      **Publishing Date:** February 2025  
+      **Publisher:** International Research Journal of Modernization in Engineering Technology and Science (IRJMETS)  
+      **Abstract:**
+      <i>Today nearly every big company operates several data centers spread across the world. Each of these data 
+      centers hosts a variety of infrastructure services like MySQL, Redis, Hive, Message Queue etc. Now for any
+      company it's very important to write the same code for all regions for scalability and following the DRY (Don’t
+      repeat yourself) aspect of system design. But the people who are designing and writing these codes are spread
+      across multiple regions and due to that sometimes they are not aligned on every system configs. Sometimes
+      even within the same region software engineers are not aligned properly on these system configs as to what
+      system configs to keep for that region. Because of that, data center system configs start differing across multiple
+      regions. Now it is very important to make sure these configurations are the same across all regions because it
+      can lead to a major critical issues in your team. In this paper, we will first introduce what the problem is, then
+      we will talk about existing solutions and then we will talk about proposed solutions and how it tackles all the
+      problems listed in the introduction section.</i>
+      
+      📄 [Read the Original Article](https://www.irjmets.com/uploadedfiles/paper//issue_2_february_2025/67662/final/fin_irjmets1739515607.pdf)
+      📄 [Read the Article on DZone](https://dzone.com/content/3547424/edit.html)
+      
+      <br/>
+      
+      ## <i class="fas fa-book"></i> **Monitoring Server Health in Private Cloud Data Centers: A Scalable Approach**
+      **Publishing Date:** March 2025  
+      **Publisher:** International Journal of Computer Trends and Technology (IJCTT)  
+      **Abstract:**
+      <i>With the increasing costs of public cloud services such as AWS, Azure, and GCP, many companies opt to establish
+        their private cloud infrastructure. This transition necessitates the development of an adequate Infrastructure 
+      as a Service (IaaS) team to manage and maintain the data center. A key challenge in this domain is monitoring the 
+      health of the bare metals (also called servers) to ensure high availability and reliability. This paper presents
+      a comprehensive approach to bare metal health monitoring in private data centers. We will discuss the problem
+      statement literature review, outline an industry-standard solution, propose a high-level system design to ensure
+      real-time monitoring, fault detection, and automated remediation, and provide experimental results to show how
+      our approach is better than existing industry solutions. .</i>
+      
+      📄 [Read the Original Article](https://ijcttjournal.org/2025/Volume-73%20Issue-3/IJCTT-V73I3P106.pdf)
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+  - title: Awards & Recognitions
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      
+      <i> Recognized for my outstanding contribution in academics and industry in the field of computer science, 
+      software engineering, payment systems and e-commerce. </i>
+      
+      ## **Institute of Electrical and Electronics Engineers (IEEE)**
+      **Award:** [IEEE Senior Member](https://ieee-collabratec.ieee.org/app/p/ShubhamJindal1123723) 
+      
+      **Awarded:** Mar 2025
+      
+      **Institution:** [IEEE](https://www.ieee.org/)
+      
+      ---
+      
+      ## **Society Acadamic and Scientific Society**
+      **Award:** [Eminent Fellow Member (SEFM)](https://www.sassociety.com/eminent-fellow-membership/)
+      
+      **Awarded:** Feb 2025
+      
+      **Institution:** [SAS Society](https://www.sassociety.com/)  
+      
+      ---
+      
+      ## **Soft Computing Research Society**
+      **Award:** [Fellow](https://scrs.in/scrs-fellow/264) 
+      
+      **Awarded:** Feb 2025    
+      
+      **Institution:** [SCRS](https://scrs.in/)
+      
+      ---
+      
+      ## **International Organization for Academic and Scientific Development (IOASD)**
+      **Award:** [Royal Fellow](https://ioasd.org/royal-fellows/) 
+      
+      **Awarded:** Mar 2025
+      
+      **Institution:** [IOASD](https://ioasd.org/)
+      
 
 # Footer
 footer_show_references: true
+footer_content: |
+  Copyright 2025 Shubham Jindal | 📧 [jindalshubham34@gmail.com](mailto:jindalshubham34@gmail.com)
 # references_title: References on request (Override references text)
 
 # Build settings
