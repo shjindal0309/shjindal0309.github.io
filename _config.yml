@@ -202,7 +202,7 @@ content:
       
       ## <i class="fas fa-book"></i> **Understanding N-Gram Language Models and Perplexity**
       **Publishing Date:** July 2025  
-      **Publisher:** Dzone https://dzone.com/  
+      **Publisher:** Dzone (https://dzone.com/)  
       **Abstract:**
       <i>Language models are designed to predict what words are likely to come next in a sequence, assigning 
       probabilities to each possible continuation. In this article, we explore how an N-gram language model works, 
