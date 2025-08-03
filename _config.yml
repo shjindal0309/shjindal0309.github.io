@@ -193,9 +193,25 @@ content:
       a comprehensive approach to bare metal health monitoring in private data centers. We will discuss the problem
       statement literature review, outline an industry-standard solution, propose a high-level system design to ensure
       real-time monitoring, fault detection, and automated remediation, and provide experimental results to show how
-      our approach is better than existing industry solutions. .</i>
+      our approach is better than existing industry solutions.</i>
       
       📄 [Read the Original Article](https://ijcttjournal.org/2025/Volume-73%20Issue-3/IJCTT-V73I3P106.pdf)
+      📄 [Read the Original Article](https://dzone.com/articles/monitoring-server-health-in-private-cloud-data-centers)
+      
+      <br/>
+      
+      ## <i class="fas fa-book"></i> **Understanding N-Gram Language Models and Perplexity**
+      **Publishing Date:** July 2025  
+      **Publisher:** Dzone https://dzone.com/  
+      **Abstract:**
+      <i>Language models are designed to predict what words are likely to come next in a sequence, assigning 
+      probabilities to each possible continuation. In this article, we explore how an N-gram language model works, 
+      how it assigns probabilities to sentences and sequences of words, and then examine how well this model performs. 
+      By understanding and evaluating this approach, we gain insight into how language models handle the complexity of
+      human language.</i>
+      
+      📄 [Read the Original Article](https://dzone.com/articles/n-gram-language-models-perplexity)
+      
 
   - title: Awards & Recognitions
     layout: text
