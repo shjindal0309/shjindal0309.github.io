@@ -14,7 +14,7 @@ website: https://shjindal0309.github.io/
 # Add additional styling options for better UI
 # Example: layout: grid, for different sections
 
-darkmode: true
+darkmode: false
 
 # Social links
 twitter_username: sh_jindal
